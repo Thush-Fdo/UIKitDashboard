@@ -1,11 +1,11 @@
 {
   "images" : [
     {
-      "filename" : "natureInsta.jpg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "natureInsta.jpg",
       "idiom" : "universal",
       "scale" : "2x"
     },

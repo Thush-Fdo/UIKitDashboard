@@ -1,11 +1,11 @@
 {
   "images" : [
     {
-      "filename" : "postplaceholder.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "postplaceholder.png",
       "idiom" : "universal",
       "scale" : "2x"
     },

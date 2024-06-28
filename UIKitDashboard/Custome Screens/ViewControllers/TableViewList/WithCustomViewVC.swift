@@ -19,7 +19,6 @@ class WithCustomViewVC: UIViewController {
         configureTableView()
     }
     
-    
     func configureTableView() {
         view.addSubview(tableView)
         

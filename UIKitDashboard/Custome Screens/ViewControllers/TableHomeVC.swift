@@ -24,7 +24,8 @@ class TableHomeVC: UIViewController {
     func configureTableView() {
         view.addSubview(tableView)
         
-        tableView.backgroundColor = .systemGray6
+        tableView.backgroundColor = .systemBackground
+        tableView.rowHeight = 60
         
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: cellID)
         tableView.dataSource = self
@@ -46,7 +47,8 @@ extension TableHomeVC {
         tableViewList = [
             TableViewList(name: "Collapsible TableView", viewController: CollapsibleTableVC()),
             TableViewList(name: "Insta Feed Replica", viewController: InstaFeedRepVC()),
-            TableViewList(name: "With Custom Cells", viewController: WithCustomViewVC())
+            TableViewList(name: "With Custom Cells", viewController: WithCustomViewVC()),
+            TableViewList(name: "Card View in Table", viewController: CardViewVC())
         ]
     }
 }

@@ -49,6 +49,22 @@ struct Images {
     static let photoSample12 = shaniaPost
     static let photoSample13 = coinPost
     static let photoSample14 = tonyPost
+    
+    static let appliances           = UIImage(named: "appliances")!
+    static let books                = UIImage(named: "books")!
+    static let cloths               = UIImage(named: "cloths")!
+    static let electronics          = UIImage(named: "electronics")!
+    static let furniture            = UIImage(named: "furniture")!
+    static let homeandkitchen       = UIImage(named: "homeandkitchen")!
+    static let kidstoys             = UIImage(named: "kidstoys")!
+    static let mensaccessories      = UIImage(named: "mensaccessories")!
+    static let womensaccessories    = UIImage(named: "womensaccessories")!
+    
+    static let dalmatian        = UIImage(named: "dalmatian")!
+    static let dobermann        = UIImage(named: "dobermann")!
+    static let germanshepherd   = UIImage(named: "germanshepherd")!
+    static let labrador         = UIImage(named: "labrador")!
+    static let rottweiler       = UIImage(named: "rottweiler")!
 }
 
 enum SFSymbols {

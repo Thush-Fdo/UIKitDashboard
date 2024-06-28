@@ -10,8 +10,6 @@ import UIKit
 class WithCustomCellVC: UIViewController {
     
     private var collectionView: UICollectionView!
-    private var controlView = UIView()
-    private var control: UISegmentedControl!
     private var galleryItems: [Photo] = []
     
     override func viewDidLoad() {
@@ -92,6 +90,4 @@ extension WithCustomCellVC: UICollectionViewDelegate, UICollectionViewDataSource
         cell.set(photo: galleryItems[indexPath.row])
         return cell
     }
-    
-    
 }

@@ -14,7 +14,6 @@ class InstaFeedRepVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .blue
         title = "Insta Feed Replica"
         postList = fetchData()
         configureTableView()
@@ -27,8 +26,6 @@ class InstaFeedRepVC: UIViewController {
     
     func configureTableView() {
         view.addSubview(tableView)
-        
-//        tableView.rowHeight = 500
         
         tableView.register(InstaPostCell.self, forCellReuseIdentifier: InstaPostCell.postCellID)
         tableView.dataSource = self

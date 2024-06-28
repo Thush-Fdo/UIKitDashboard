@@ -24,6 +24,9 @@ class CollectionHomeVC: UIViewController {
     func configureTableView() {
         view.addSubview(tableView)
         
+        tableView.backgroundColor = .systemBackground
+        tableView.rowHeight = 60
+        
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: cellID)
         tableView.dataSource = self
         tableView.delegate = self
@@ -43,7 +46,8 @@ extension CollectionHomeVC {
     func assignData() {
         collectionViewList = [
             CollectionViewList(name: "Basic Two Column Grid View", viewController: BasicGridVC()),
-            CollectionViewList(name: "Grid for Two and Three Columns", viewController: WithCustomCellVC())
+            CollectionViewList(name: "Grid for Two and Three Columns", viewController: WithCustomCellVC()),
+            CollectionViewList(name: "Caraousal View", viewController: CaraousalVC())
         ]
     }
 }

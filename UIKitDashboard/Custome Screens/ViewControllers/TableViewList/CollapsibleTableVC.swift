@@ -23,7 +23,7 @@ class CollapsibleTableVC: UIViewController {
     func configureTableView() {
         view.addSubview(tableView)
         
-        tableView.backgroundColor = .systemGray6
+        tableView.backgroundColor = .systemBackground
         
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: cellID)
         tableView.dataSource = self
@@ -79,10 +79,10 @@ extension CollapsibleTableVC: UITableViewDelegate {
     }
     
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
-        let view = UIView(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: 40))
+        let view = UIView(frame: CGRect(x: 0, y: 5, width: UIScreen.main.bounds.width, height: 40))
         view.backgroundColor = .systemPurple
         
-        let button = UIButton(frame: CGRect(x: 0, y: 0, width: view.bounds.width, height: 30))
+        let button = UIButton(frame: CGRect(x: 0, y: 10, width: view.bounds.width, height: 30))
         button.setTitle(users[section].userGroup, for: .normal)
         button.titleLabel?.font = UIFont.systemFont(ofSize: 20, weight: .bold)
         button.tag = section
@@ -90,6 +90,10 @@ extension CollapsibleTableVC: UITableViewDelegate {
         view.addSubview(button)
         
         return view
+    }
+    
+    func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+        return 50
     }
 }
 

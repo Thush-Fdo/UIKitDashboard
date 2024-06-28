@@ -36,6 +36,15 @@
 		F923BB622C2D874100DBB894 /* GalleryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F923BB612C2D874100DBB894 /* GalleryCell.swift */; };
 		F923BB642C2D971800DBB894 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F923BB632C2D971800DBB894 /* UIHelper.swift */; };
 		F923BB662C2DA9FA00DBB894 /* BasicGridVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F923BB652C2DA9FA00DBB894 /* BasicGridVC.swift */; };
+		F923BB682C2DB2EF00DBB894 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = F923BB672C2DB2EF00DBB894 /* Category.swift */; };
+		F923BB6A2C2DB42E00DBB894 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F923BB692C2DB42E00DBB894 /* CategoryCell.swift */; };
+		F923BB6C2C2DCEEF00DBB894 /* DogCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F923BB6B2C2DCEEF00DBB894 /* DogCell.swift */; };
+		F923BB6E2C2DD0C000DBB894 /* CaraousalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F923BB6D2C2DD0C000DBB894 /* CaraousalVC.swift */; };
+		F9AD75BB2C2E6F4C00B16BDF /* CustomLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AD75BA2C2E6F4C00B16BDF /* CustomLayout.swift */; };
+		F9AD75BD2C2EFAC300B16BDF /* CardViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AD75BC2C2EFAC300B16BDF /* CardViewVC.swift */; };
+		F9F1CCF52C2F1DEB005739BA /* UICollectionViewCell+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F1CCF42C2F1DEB005739BA /* UICollectionViewCell+Ext.swift */; };
+		F9F1CCF72C2F203A005739BA /* CardViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F1CCF62C2F203A005739BA /* CardViewCell.swift */; };
+		F9F1CCF92C2F29D1005739BA /* UITableViewCell+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F1CCF82C2F29D1005739BA /* UITableViewCell+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +79,15 @@
 		F923BB612C2D874100DBB894 /* GalleryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryCell.swift; sourceTree = "<group>"; };
 		F923BB632C2D971800DBB894 /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
 		F923BB652C2DA9FA00DBB894 /* BasicGridVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicGridVC.swift; sourceTree = "<group>"; };
+		F923BB672C2DB2EF00DBB894 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		F923BB692C2DB42E00DBB894 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		F923BB6B2C2DCEEF00DBB894 /* DogCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogCell.swift; sourceTree = "<group>"; };
+		F923BB6D2C2DD0C000DBB894 /* CaraousalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaraousalVC.swift; sourceTree = "<group>"; };
+		F9AD75BA2C2E6F4C00B16BDF /* CustomLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLayout.swift; sourceTree = "<group>"; };
+		F9AD75BC2C2EFAC300B16BDF /* CardViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewVC.swift; sourceTree = "<group>"; };
+		F9F1CCF42C2F1DEB005739BA /* UICollectionViewCell+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionViewCell+Ext.swift"; sourceTree = "<group>"; };
+		F9F1CCF62C2F203A005739BA /* CardViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewCell.swift; sourceTree = "<group>"; };
+		F9F1CCF82C2F29D1005739BA /* UITableViewCell+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +134,8 @@
 			isa = PBXGroup;
 			children = (
 				F923BB312C2C1BAF00DBB894 /* UIView+Ext.swift */,
+				F9F1CCF42C2F1DEB005739BA /* UICollectionViewCell+Ext.swift */,
+				F9F1CCF82C2F29D1005739BA /* UITableViewCell+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -132,6 +152,7 @@
 		F923BB2A2C2C1B1900DBB894 /* Custome Screens */ = {
 			isa = PBXGroup;
 			children = (
+				F9AD75B92C2E6ED000B16BDF /* Layouts */,
 				F923BB4E2C2C485E00DBB894 /* ImageViews */,
 				F923BB4D2C2C485000DBB894 /* Labels */,
 				F923BB2B2C2C1B3A00DBB894 /* ViewControllers */,
@@ -172,6 +193,7 @@
 				F923BB492C2C375600DBB894 /* Post.swift */,
 				F923BB592C2D5DA800DBB894 /* Pets.swift */,
 				F923BB5F2C2D737800DBB894 /* Photos.swift */,
+				F923BB672C2DB2EF00DBB894 /* Category.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -191,6 +213,7 @@
 				F923BB432C2C340E00DBB894 /* CollapsibleTableVC.swift */,
 				F923BB452C2C341D00DBB894 /* WithCustomViewVC.swift */,
 				F923BB472C2C342F00DBB894 /* InstaFeedRepVC.swift */,
+				F9AD75BC2C2EFAC300B16BDF /* CardViewVC.swift */,
 			);
 			path = TableViewList;
 			sourceTree = "<group>";
@@ -200,6 +223,7 @@
 			children = (
 				F923BB5B2C2D647100DBB894 /* WithCustomCellVC.swift */,
 				F923BB652C2DA9FA00DBB894 /* BasicGridVC.swift */,
+				F923BB6D2C2DD0C000DBB894 /* CaraousalVC.swift */,
 			);
 			path = CollectionViewList;
 			sourceTree = "<group>";
@@ -228,6 +252,7 @@
 			children = (
 				F923BB4B2C2C3D1200DBB894 /* InstaPostCell.swift */,
 				F923BB2F2C2C1B8100DBB894 /* VideoCell.swift */,
+				F9F1CCF62C2F203A005739BA /* CardViewCell.swift */,
 			);
 			path = TableViewCells;
 			sourceTree = "<group>";
@@ -236,8 +261,18 @@
 			isa = PBXGroup;
 			children = (
 				F923BB612C2D874100DBB894 /* GalleryCell.swift */,
+				F923BB692C2DB42E00DBB894 /* CategoryCell.swift */,
+				F923BB6B2C2DCEEF00DBB894 /* DogCell.swift */,
 			);
 			path = CollectionViewCells;
+			sourceTree = "<group>";
+		};
+		F9AD75B92C2E6ED000B16BDF /* Layouts */ = {
+			isa = PBXGroup;
+			children = (
+				F9AD75BA2C2E6F4C00B16BDF /* CustomLayout.swift */,
+			);
+			path = Layouts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -311,13 +346,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				F923BB662C2DA9FA00DBB894 /* BasicGridVC.swift in Sources */,
+				F9F1CCF92C2F29D1005739BA /* UITableViewCell+Ext.swift in Sources */,
 				F923BB5A2C2D5DA800DBB894 /* Pets.swift in Sources */,
+				F923BB6E2C2DD0C000DBB894 /* CaraousalVC.swift in Sources */,
 				F923BB382C2C1C3500DBB894 /* Users.swift in Sources */,
 				F923BB192C2C0F5300DBB894 /* HomeVC.swift in Sources */,
 				F923BB302C2C1B8100DBB894 /* VideoCell.swift in Sources */,
+				F9AD75BB2C2E6F4C00B16BDF /* CustomLayout.swift in Sources */,
 				F923BB562C2C499D00DBB894 /* UIKDSecondaryTitleLabel.swift in Sources */,
+				F9AD75BD2C2EFAC300B16BDF /* CardViewVC.swift in Sources */,
 				F923BB4C2C2C3D1200DBB894 /* InstaPostCell.swift in Sources */,
 				F923BB402C2C337E00DBB894 /* CollectionHomeVC.swift in Sources */,
+				F923BB6C2C2DCEEF00DBB894 /* DogCell.swift in Sources */,
 				F923BB482C2C342F00DBB894 /* InstaFeedRepVC.swift in Sources */,
 				F923BB322C2C1BAF00DBB894 /* UIView+Ext.swift in Sources */,
 				F923BB3E2C2C336400DBB894 /* TableHomeVC.swift in Sources */,
@@ -326,17 +366,21 @@
 				F923BB362C2C1BFA00DBB894 /* NavList.swift in Sources */,
 				F923BB642C2D971800DBB894 /* UIHelper.swift in Sources */,
 				F923BB602C2D737800DBB894 /* Photos.swift in Sources */,
+				F923BB6A2C2DB42E00DBB894 /* CategoryCell.swift in Sources */,
 				F923BB4A2C2C375600DBB894 /* Post.swift in Sources */,
+				F9F1CCF52C2F1DEB005739BA /* UICollectionViewCell+Ext.swift in Sources */,
 				F923BB5C2C2D647100DBB894 /* WithCustomCellVC.swift in Sources */,
 				F923BB462C2C341D00DBB894 /* WithCustomViewVC.swift in Sources */,
 				F923BB152C2C0F5300DBB894 /* AppDelegate.swift in Sources */,
 				F923BB542C2C497800DBB894 /* UIKDBodyLabel.swift in Sources */,
+				F9F1CCF72C2F203A005739BA /* CardViewCell.swift in Sources */,
 				F923BB172C2C0F5300DBB894 /* SceneDelegate.swift in Sources */,
 				F923BB442C2C340E00DBB894 /* CollapsibleTableVC.swift in Sources */,
 				F923BB522C2C490E00DBB894 /* UIKDPostImageView.swift in Sources */,
 				F923BB342C2C1BD800DBB894 /* Constants.swift in Sources */,
 				F923BB582C2C49B500DBB894 /* UIKDTitleLabel.swift in Sources */,
 				F923BB502C2C488800DBB894 /* UIKDAvatarImageView.swift in Sources */,
+				F923BB682C2DB2EF00DBB894 /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
