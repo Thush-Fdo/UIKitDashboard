@@ -71,18 +71,18 @@ extension CardViewVC: UITableViewDelegate, UITableViewDataSource {
         return 120
     }
     
-    func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
-        cell.contentView.backgroundColor = UIColor.clear
-        let whiteRoundedView : UIView = UIView(frame: CGRectMake(15, 15, self.view.frame.size.width - 30, 90))
-        whiteRoundedView.layer.backgroundColor = CGColor(colorSpace: CGColorSpaceCreateDeviceRGB(), components: [1.0, 1.0, 1.0, 1.0])
-        whiteRoundedView.layer.masksToBounds = false
-        whiteRoundedView.layer.cornerRadius = 3.0
-        whiteRoundedView.layer.shadowOffset = CGSizeMake(-1, 1)
-        whiteRoundedView.layer.shadowOpacity = 0.5
-        
-        if !cell.contentView.subviews.contains(whiteRoundedView) {
-            cell.contentView.addSubview(whiteRoundedView)
-        }
-        cell.contentView.sendSubviewToBack(whiteRoundedView)
-    }
+//    func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+//        cell.contentView.backgroundColor = UIColor.clear
+//        let whiteRoundedView = UIView(frame: CGRectMake(15, 15, self.view.frame.size.width - 30, 90))
+//        whiteRoundedView.layer.backgroundColor = CGColor(colorSpace: CGColorSpaceCreateDeviceRGB(), components: [1.0, 1.0, 1.0, 1.0])
+//        whiteRoundedView.layer.masksToBounds = false
+//        whiteRoundedView.layer.cornerRadius = 3.0
+//        whiteRoundedView.layer.shadowOffset = CGSizeMake(-1, 1)
+//        whiteRoundedView.layer.shadowOpacity = 0.5
+//        
+//        if !cell.contentView.subviews.contains(whiteRoundedView) {
+//            cell.contentView.addSubview(whiteRoundedView)
+//        }
+//        cell.contentView.sendSubviewToBack(whiteRoundedView)
+//    }
 }

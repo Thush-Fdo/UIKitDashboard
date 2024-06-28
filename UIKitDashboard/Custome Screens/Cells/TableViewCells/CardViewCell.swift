@@ -12,6 +12,7 @@ class CardViewCell: UITableViewCell {
     let placeholderImage = Images.postplaceholder
     
     var bgView = UIView()
+    var shadowBg = ShadowView()
     var categImage = UIKDPostImageView(frame: .zero)
     var categTitle = UIKDTitleLabel(textalignment: .left, fontsize: 16)
     
@@ -20,6 +21,7 @@ class CardViewCell: UITableViewCell {
         
         contentView.backgroundColor = UIColor(white: 0.95, alpha: 1)
         configureBackgroundView()
+        configureShadowView()
     }
     
     required init?(coder: NSCoder) {
@@ -60,4 +62,17 @@ class CardViewCell: UITableViewCell {
         ])
     }
     
+    func configureShadowView() {
+        bgView.addSubview(shadowBg)
+        shadowBg.translatesAutoresizingMaskIntoConstraints = false
+        shadowBg.layer.backgroundColor = CGColor(colorSpace: CGColorSpaceCreateDeviceRGB(), components: [1.0, 1.0, 1.0, 1.0])
+        bgView.sendSubviewToBack(shadowBg)
+        
+        NSLayoutConstraint.activate([
+            shadowBg.topAnchor.constraint(equalTo: bgView.topAnchor),
+            shadowBg.leadingAnchor.constraint(equalTo: bgView.leadingAnchor),
+            shadowBg.trailingAnchor.constraint(equalTo: bgView.trailingAnchor),
+            shadowBg.bottomAnchor.constraint(equalTo: bgView.bottomAnchor)
+        ])
+    }
 }

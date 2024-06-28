@@ -42,9 +42,8 @@
 		F923BB6E2C2DD0C000DBB894 /* CaraousalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F923BB6D2C2DD0C000DBB894 /* CaraousalVC.swift */; };
 		F9AD75BB2C2E6F4C00B16BDF /* CustomLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AD75BA2C2E6F4C00B16BDF /* CustomLayout.swift */; };
 		F9AD75BD2C2EFAC300B16BDF /* CardViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AD75BC2C2EFAC300B16BDF /* CardViewVC.swift */; };
-		F9F1CCF52C2F1DEB005739BA /* UICollectionViewCell+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F1CCF42C2F1DEB005739BA /* UICollectionViewCell+Ext.swift */; };
 		F9F1CCF72C2F203A005739BA /* CardViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F1CCF62C2F203A005739BA /* CardViewCell.swift */; };
-		F9F1CCF92C2F29D1005739BA /* UITableViewCell+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F1CCF82C2F29D1005739BA /* UITableViewCell+Ext.swift */; };
+		F9F1CCFB2C2F458E005739BA /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F1CCFA2C2F458E005739BA /* ShadowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -85,9 +84,8 @@
 		F923BB6D2C2DD0C000DBB894 /* CaraousalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaraousalVC.swift; sourceTree = "<group>"; };
 		F9AD75BA2C2E6F4C00B16BDF /* CustomLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLayout.swift; sourceTree = "<group>"; };
 		F9AD75BC2C2EFAC300B16BDF /* CardViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewVC.swift; sourceTree = "<group>"; };
-		F9F1CCF42C2F1DEB005739BA /* UICollectionViewCell+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionViewCell+Ext.swift"; sourceTree = "<group>"; };
 		F9F1CCF62C2F203A005739BA /* CardViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewCell.swift; sourceTree = "<group>"; };
-		F9F1CCF82C2F29D1005739BA /* UITableViewCell+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Ext.swift"; sourceTree = "<group>"; };
+		F9F1CCFA2C2F458E005739BA /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,8 +132,6 @@
 			isa = PBXGroup;
 			children = (
 				F923BB312C2C1BAF00DBB894 /* UIView+Ext.swift */,
-				F9F1CCF42C2F1DEB005739BA /* UICollectionViewCell+Ext.swift */,
-				F9F1CCF82C2F29D1005739BA /* UITableViewCell+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -271,6 +267,7 @@
 			isa = PBXGroup;
 			children = (
 				F9AD75BA2C2E6F4C00B16BDF /* CustomLayout.swift */,
+				F9F1CCFA2C2F458E005739BA /* ShadowView.swift */,
 			);
 			path = Layouts;
 			sourceTree = "<group>";
@@ -346,7 +343,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F923BB662C2DA9FA00DBB894 /* BasicGridVC.swift in Sources */,
-				F9F1CCF92C2F29D1005739BA /* UITableViewCell+Ext.swift in Sources */,
 				F923BB5A2C2D5DA800DBB894 /* Pets.swift in Sources */,
 				F923BB6E2C2DD0C000DBB894 /* CaraousalVC.swift in Sources */,
 				F923BB382C2C1C3500DBB894 /* Users.swift in Sources */,
@@ -368,7 +364,6 @@
 				F923BB602C2D737800DBB894 /* Photos.swift in Sources */,
 				F923BB6A2C2DB42E00DBB894 /* CategoryCell.swift in Sources */,
 				F923BB4A2C2C375600DBB894 /* Post.swift in Sources */,
-				F9F1CCF52C2F1DEB005739BA /* UICollectionViewCell+Ext.swift in Sources */,
 				F923BB5C2C2D647100DBB894 /* WithCustomCellVC.swift in Sources */,
 				F923BB462C2C341D00DBB894 /* WithCustomViewVC.swift in Sources */,
 				F923BB152C2C0F5300DBB894 /* AppDelegate.swift in Sources */,
@@ -381,6 +376,7 @@
 				F923BB582C2C49B500DBB894 /* UIKDTitleLabel.swift in Sources */,
 				F923BB502C2C488800DBB894 /* UIKDAvatarImageView.swift in Sources */,
 				F923BB682C2DB2EF00DBB894 /* Category.swift in Sources */,
+				F9F1CCFB2C2F458E005739BA /* ShadowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
