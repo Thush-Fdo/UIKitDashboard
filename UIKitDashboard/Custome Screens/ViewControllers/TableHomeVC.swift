@@ -46,6 +46,7 @@ extension TableHomeVC {
     func assignData() {
         tableViewList = [
             TableViewList(name: "Collapsible TableView", viewController: CollapsibleTableVC()),
+            TableViewList(name: "Collapsible TableView with Custom HeaderView", viewController: CollapsibleTableHeaderVC()),
             TableViewList(name: "Insta Feed Replica", viewController: InstaFeedRepVC()),
             TableViewList(name: "With Custom Cells", viewController: WithCustomViewVC()),
             TableViewList(name: "Card View in Table", viewController: CardViewVC())
@@ -61,6 +62,7 @@ extension TableHomeVC: UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: cellID)
         cell?.textLabel?.text = tableViewList[indexPath.row].name
+        cell?.textLabel?.numberOfLines = 0
         return cell!
     }
 }

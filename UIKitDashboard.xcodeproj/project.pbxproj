@@ -45,7 +45,10 @@
 		F9A5161C2C2FE41900C8DD8A /* CreditCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A5161B2C2FE41900C8DD8A /* CreditCard.swift */; };
 		F9A5161E2C2FE91400C8DD8A /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A5161D2C2FE91400C8DD8A /* UIColor+Ext.swift */; };
 		F9A516212C30012900C8DD8A /* UIKDCardInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A516202C30012900C8DD8A /* UIKDCardInfoVC.swift */; };
-		F9AD75BB2C2E6F4C00B16BDF /* CustomLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AD75BA2C2E6F4C00B16BDF /* CustomLayout.swift */; };
+		F9A516232C3032E000C8DD8A /* CollapsibleTableHeaderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A516222C3032E000C8DD8A /* CollapsibleTableHeaderVC.swift */; };
+		F9A516252C30340F00C8DD8A /* Genre.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A516242C30340F00C8DD8A /* Genre.swift */; };
+		F9A516272C3034D200C8DD8A /* UIKDExpandableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A516262C3034D200C8DD8A /* UIKDExpandableHeaderView.swift */; };
+		F9AD75BB2C2E6F4C00B16BDF /* UIKDCustomFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AD75BA2C2E6F4C00B16BDF /* UIKDCustomFlowLayout.swift */; };
 		F9AD75BD2C2EFAC300B16BDF /* CardViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AD75BC2C2EFAC300B16BDF /* CardViewVC.swift */; };
 		F9F1CCF72C2F203A005739BA /* CardViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F1CCF62C2F203A005739BA /* CardViewCell.swift */; };
 		F9F1CCFE2C2F4C95005739BA /* NestedCardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F1CCFD2C2F4C95005739BA /* NestedCardVC.swift */; };
@@ -92,7 +95,10 @@
 		F9A5161B2C2FE41900C8DD8A /* CreditCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCard.swift; sourceTree = "<group>"; };
 		F9A5161D2C2FE91400C8DD8A /* UIColor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
 		F9A516202C30012900C8DD8A /* UIKDCardInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKDCardInfoVC.swift; sourceTree = "<group>"; };
-		F9AD75BA2C2E6F4C00B16BDF /* CustomLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLayout.swift; sourceTree = "<group>"; };
+		F9A516222C3032E000C8DD8A /* CollapsibleTableHeaderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsibleTableHeaderVC.swift; sourceTree = "<group>"; };
+		F9A516242C30340F00C8DD8A /* Genre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Genre.swift; sourceTree = "<group>"; };
+		F9A516262C3034D200C8DD8A /* UIKDExpandableHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKDExpandableHeaderView.swift; sourceTree = "<group>"; };
+		F9AD75BA2C2E6F4C00B16BDF /* UIKDCustomFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKDCustomFlowLayout.swift; sourceTree = "<group>"; };
 		F9AD75BC2C2EFAC300B16BDF /* CardViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewVC.swift; sourceTree = "<group>"; };
 		F9F1CCF62C2F203A005739BA /* CardViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewCell.swift; sourceTree = "<group>"; };
 		F9F1CCFD2C2F4C95005739BA /* NestedCardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedCardVC.swift; sourceTree = "<group>"; };
@@ -205,6 +211,7 @@
 				F923BB5F2C2D737800DBB894 /* Photos.swift */,
 				F923BB672C2DB2EF00DBB894 /* Category.swift */,
 				F9A5161B2C2FE41900C8DD8A /* CreditCard.swift */,
+				F9A516242C30340F00C8DD8A /* Genre.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -225,6 +232,7 @@
 				F923BB452C2C341D00DBB894 /* WithCustomViewVC.swift */,
 				F923BB472C2C342F00DBB894 /* InstaFeedRepVC.swift */,
 				F9AD75BC2C2EFAC300B16BDF /* CardViewVC.swift */,
+				F9A516222C3032E000C8DD8A /* CollapsibleTableHeaderVC.swift */,
 			);
 			path = TableViewList;
 			sourceTree = "<group>";
@@ -298,7 +306,8 @@
 		F9AD75B92C2E6ED000B16BDF /* Layouts */ = {
 			isa = PBXGroup;
 			children = (
-				F9AD75BA2C2E6F4C00B16BDF /* CustomLayout.swift */,
+				F9AD75BA2C2E6F4C00B16BDF /* UIKDCustomFlowLayout.swift */,
+				F9A516262C3034D200C8DD8A /* UIKDExpandableHeaderView.swift */,
 			);
 			path = Layouts;
 			sourceTree = "<group>";
@@ -381,7 +390,7 @@
 				F923BB192C2C0F5300DBB894 /* HomeVC.swift in Sources */,
 				F9A5161E2C2FE91400C8DD8A /* UIColor+Ext.swift in Sources */,
 				F923BB302C2C1B8100DBB894 /* VideoCell.swift in Sources */,
-				F9AD75BB2C2E6F4C00B16BDF /* CustomLayout.swift in Sources */,
+				F9AD75BB2C2E6F4C00B16BDF /* UIKDCustomFlowLayout.swift in Sources */,
 				F923BB562C2C499D00DBB894 /* UIKDSecondaryTitleLabel.swift in Sources */,
 				F9AD75BD2C2EFAC300B16BDF /* CardViewVC.swift in Sources */,
 				F923BB4C2C2C3D1200DBB894 /* InstaPostCell.swift in Sources */,
@@ -400,7 +409,10 @@
 				F923BB6A2C2DB42E00DBB894 /* CategoryCell.swift in Sources */,
 				F923BB4A2C2C375600DBB894 /* Post.swift in Sources */,
 				F9A5161A2C2FCF9500C8DD8A /* UIKDCardDocketView.swift in Sources */,
+				F9A516252C30340F00C8DD8A /* Genre.swift in Sources */,
 				F923BB5C2C2D647100DBB894 /* WithCustomCellVC.swift in Sources */,
+				F9A516272C3034D200C8DD8A /* UIKDExpandableHeaderView.swift in Sources */,
+				F9A516232C3032E000C8DD8A /* CollapsibleTableHeaderVC.swift in Sources */,
 				F923BB462C2C341D00DBB894 /* WithCustomViewVC.swift in Sources */,
 				F923BB152C2C0F5300DBB894 /* AppDelegate.swift in Sources */,
 				F923BB542C2C497800DBB894 /* UIKDBodyLabel.swift in Sources */,

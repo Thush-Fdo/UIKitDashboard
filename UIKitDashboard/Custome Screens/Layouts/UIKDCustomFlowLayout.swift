@@ -7,7 +7,7 @@
 
 import UIKit
 
-class CustomLayout: UICollectionViewFlowLayout {
+class UIKDCustomFlowLayout: UICollectionViewFlowLayout {
 
     var previousOffset: CGFloat = 0.0
     var currentPage = 0

@@ -19,7 +19,7 @@ class CaraousalVC: UIViewController {
     let lifeSpanLabel = UIKDSecondaryTitleLabel(fontSize: 15)
     let sizeAndWeightLabel = UIKDSecondaryTitleLabel(fontSize: 15)
     let descLabel = UIKDBodyLabel(textalignment: .justified)
-    let layout = CustomLayout()
+    let layout = UIKDCustomFlowLayout()
     
     var itemW: CGFloat {
         return screenWidth * 0.5

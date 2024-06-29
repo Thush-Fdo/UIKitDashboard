@@ -2,7 +2,7 @@
 //  NestedCardVC.swift
 //  UIKitDashboard
 //
-//  Created by Shermin Fernando on 29/06/2024.
+//  Created by Thush-Fdo on 29/06/2024.
 //
 
 import UIKit
@@ -138,14 +138,14 @@ extension NestedCardVC {
     func getCradData() -> [CreditCard] {
         return [
             CreditCard(cardNickNname: "jdvisaone",
-                       name: "Jon Doe",
+                       name: "Justin Victor Graham",
                        expiration: "10/25",
                        numberLabel: "1111 4321 5643 7869",
                        brand: "Visa",
                        brandImage: Images.visaLogo),
             
             CreditCard(cardNickNname: "jdmasterone",
-                       name: "P T S Fernandp",
+                       name: "Kylie Fisher",
                        expiration: "12/24",
                        numberLabel: "1111 4321 5643 7869",
                        brand: "Master",
@@ -159,7 +159,7 @@ extension NestedCardVC {
                        brandImage: Images.masterlogo),
             
             CreditCard(cardNickNname: "jdmasterone",
-                       name: "Thushantha Shermin Fernando",
+                       name: "Megan Mathis",
                        expiration: "12/24",
                        numberLabel: "1111 4321 5643 7869",
                        brand: "American Express",
