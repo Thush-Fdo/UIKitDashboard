@@ -65,6 +65,10 @@ struct Images {
     static let germanshepherd   = UIImage(named: "germanshepherd")!
     static let labrador         = UIImage(named: "labrador")!
     static let rottweiler       = UIImage(named: "rottweiler")!
+    
+    static let visaLogo     = UIImage(named: "visalogo")!
+    static let masterlogo   = UIImage(named: "masterlogo")!
+    static let amexlogo     = UIImage(named: "amexlogo")!
 }
 
 enum SFSymbols {

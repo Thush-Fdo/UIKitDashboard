@@ -46,7 +46,8 @@ extension HomeVC {
     func assignData() {
         mainViewList = [
             MainViewList(name: "Table Views", viewController: TableHomeVC()),
-            MainViewList(name: "Collection Views", viewController: CollectionHomeVC())
+            MainViewList(name: "Collection Views", viewController: CollectionHomeVC()),
+            MainViewList(name: "Nested Card View", viewController: NestedCardVC())
         ]
     }
 }

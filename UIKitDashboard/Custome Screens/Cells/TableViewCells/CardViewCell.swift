@@ -12,7 +12,7 @@ class CardViewCell: UITableViewCell {
     let placeholderImage = Images.postplaceholder
     
     var bgView = UIView()
-    var shadowBg = ShadowView()
+    var shadowBg = UIKDShadowView()
     var categImage = UIKDPostImageView(frame: .zero)
     var categTitle = UIKDTitleLabel(textalignment: .left, fontsize: 16)
     

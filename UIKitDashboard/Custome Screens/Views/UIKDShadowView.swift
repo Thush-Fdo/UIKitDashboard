@@ -1,5 +1,5 @@
 //
-//  ShadowView.swift
+//  UIKDShadowView.swift
 //  UIKitDashboard
 //
 //  Created by Shermin Fernando on 29/06/2024.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ShadowView: UIView {
+class UIKDShadowView: UIView {
     
     override var bounds: CGRect {
         didSet {

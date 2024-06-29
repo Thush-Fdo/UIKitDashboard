@@ -3,4 +3,54 @@
    uuid = "88E796BC-2038-4C79-89A6-79F84BCAF741"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D705CEBE-FE1B-4799-8C40-8DFC2AAF2FB0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UIKitDashboard/Custome Screens/ViewControllers/MiscViews/NestedCardVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "159"
+            endingLineNumber = "159"
+            landmarkName = "getAvailableColurCombinations(for:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D705CEBE-FE1B-4799-8C40-8DFC2AAF2FB0 - e48c18633100466d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UIKitDashboard.NestedCardVC.getCradData() -&gt; Swift.Array&lt;UIKitDashboard.CreditCard&gt;"
+                  moduleName = "UIKitDashboard"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Shermin/Documents/LocalProjects/SwiftProjects/SwiftLearning/UIKitDashboard/UIKitDashboard/Custome%20Screens/ViewControllers/MiscViews/NestedCardVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "159"
+                  endingLineNumber = "159"
+                  offsetFromSymbolStart = "1523">
+               </Location>
+               <Location
+                  uuid = "D705CEBE-FE1B-4799-8C40-8DFC2AAF2FB0 - c292fcf77bb3165d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UIKitDashboard.NestedCardVC.getAvailableColurCombinations(for: Swift.Int) -&gt; Swift.Array&lt;__C.CGColorRef&gt;"
+                  moduleName = "UIKitDashboard"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Shermin/Documents/LocalProjects/SwiftProjects/SwiftLearning/UIKitDashboard/UIKitDashboard/Custome%20Screens/ViewControllers/MiscViews/NestedCardVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "160"
+                  endingLineNumber = "160"
+                  offsetFromSymbolStart = "605">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>
