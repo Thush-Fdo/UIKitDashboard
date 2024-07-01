@@ -51,6 +51,7 @@
 		F9A516292C306BA300C8DD8A /* Wonder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A516282C306BA300C8DD8A /* Wonder.swift */; };
 		F9A5162B2C306CE300C8DD8A /* CollapsibleCellTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A5162A2C306CE300C8DD8A /* CollapsibleCellTableVC.swift */; };
 		F9A5162F2C306EB100C8DD8A /* WonderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A5162E2C306EB100C8DD8A /* WonderCell.swift */; };
+		F9A516312C32F1B900C8DD8A /* UpdateTableCellVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A516302C32F1B900C8DD8A /* UpdateTableCellVC.swift */; };
 		F9AD75BB2C2E6F4C00B16BDF /* UIKDCustomFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AD75BA2C2E6F4C00B16BDF /* UIKDCustomFlowLayout.swift */; };
 		F9AD75BD2C2EFAC300B16BDF /* CardViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AD75BC2C2EFAC300B16BDF /* CardViewVC.swift */; };
 		F9F1CCF72C2F203A005739BA /* CardViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F1CCF62C2F203A005739BA /* CardViewCell.swift */; };
@@ -104,6 +105,7 @@
 		F9A516282C306BA300C8DD8A /* Wonder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wonder.swift; sourceTree = "<group>"; };
 		F9A5162A2C306CE300C8DD8A /* CollapsibleCellTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsibleCellTableVC.swift; sourceTree = "<group>"; };
 		F9A5162E2C306EB100C8DD8A /* WonderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WonderCell.swift; sourceTree = "<group>"; };
+		F9A516302C32F1B900C8DD8A /* UpdateTableCellVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateTableCellVC.swift; sourceTree = "<group>"; };
 		F9AD75BA2C2E6F4C00B16BDF /* UIKDCustomFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKDCustomFlowLayout.swift; sourceTree = "<group>"; };
 		F9AD75BC2C2EFAC300B16BDF /* CardViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewVC.swift; sourceTree = "<group>"; };
 		F9F1CCF62C2F203A005739BA /* CardViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewCell.swift; sourceTree = "<group>"; };
@@ -241,6 +243,7 @@
 				F9AD75BC2C2EFAC300B16BDF /* CardViewVC.swift */,
 				F9A516222C3032E000C8DD8A /* CollapsibleTableHeaderVC.swift */,
 				F9A5162A2C306CE300C8DD8A /* CollapsibleCellTableVC.swift */,
+				F9A516302C32F1B900C8DD8A /* UpdateTableCellVC.swift */,
 			);
 			path = TableViewList;
 			sourceTree = "<group>";
@@ -391,6 +394,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9A516312C32F1B900C8DD8A /* UpdateTableCellVC.swift in Sources */,
 				F923BB662C2DA9FA00DBB894 /* BasicGridVC.swift in Sources */,
 				F923BB5A2C2D5DA800DBB894 /* Pets.swift in Sources */,
 				F9A516292C306BA300C8DD8A /* Wonder.swift in Sources */,

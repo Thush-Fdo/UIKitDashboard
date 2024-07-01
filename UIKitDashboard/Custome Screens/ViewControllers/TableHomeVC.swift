@@ -45,6 +45,7 @@ class TableHomeVC: UIViewController {
 extension TableHomeVC {
     func assignData() {
         tableViewList = [
+            TableViewList(name: "Cell Value Update", viewController: UpdateTableCellVC()),
             TableViewList(name: "Collapsible Header TableView", viewController: CollapsibleTableVC()),
             TableViewList(name: "Collapsible Cell TableView", viewController: CollapsibleCellTableVC()),
             TableViewList(name: "Collapsible TableView with Custom HeaderView", viewController: CollapsibleTableHeaderVC()),
