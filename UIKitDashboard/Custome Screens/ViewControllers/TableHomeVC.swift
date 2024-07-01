@@ -45,7 +45,8 @@ class TableHomeVC: UIViewController {
 extension TableHomeVC {
     func assignData() {
         tableViewList = [
-            TableViewList(name: "Collapsible TableView", viewController: CollapsibleTableVC()),
+            TableViewList(name: "Collapsible Header TableView", viewController: CollapsibleTableVC()),
+            TableViewList(name: "Collapsible Cell TableView", viewController: CollapsibleCellTableVC()),
             TableViewList(name: "Collapsible TableView with Custom HeaderView", viewController: CollapsibleTableHeaderVC()),
             TableViewList(name: "Insta Feed Replica", viewController: InstaFeedRepVC()),
             TableViewList(name: "With Custom Cells", viewController: WithCustomViewVC()),

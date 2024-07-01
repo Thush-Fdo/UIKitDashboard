@@ -24,9 +24,6 @@ class CardViewVC: UIViewController {
     func configureTableView() {
         view.addSubview(tableView)
         
-        //        tableView.rowHeight = 120
-        //
-        //        tableView.separatorColor = UIColor(white: 0.95, alpha: 1)
         tableView.separatorColor = .clear
         tableView.allowsSelection = false
         

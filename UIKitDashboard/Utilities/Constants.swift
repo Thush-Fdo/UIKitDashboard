@@ -69,6 +69,15 @@ struct Images {
     static let visaLogo     = UIImage(named: "visalogo")!
     static let masterlogo   = UIImage(named: "masterlogo")!
     static let amexlogo     = UIImage(named: "amexlogo")!
+        
+    static let chichenitzawonder            = UIImage(named: "chichenitzawonder")!
+    static let christtheredeemerwonder      = UIImage(named: "christtheredeemerwonder")!
+    static let colosseumwonder              = UIImage(named: "colosseumwonder")!
+    static let gizawonder                   = UIImage(named: "gizawonder")!
+    static let machupicchuwonder            = UIImage(named: "machupicchuwonder")!
+    static let petrawonder                  = UIImage(named: "petrawonder")!
+    static let greatwallwonder              = UIImage(named: "greatwallwonder")!
+    static let tajmahalwonder               = UIImage(named: "tajmahalwonder")!
 }
 
 enum SFSymbols {
