@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F921AE422C4852B400544E0C /* AutoScrollVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F921AE412C4852B400544E0C /* AutoScrollVC.swift */; };
 		F923BB152C2C0F5300DBB894 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F923BB142C2C0F5300DBB894 /* AppDelegate.swift */; };
 		F923BB172C2C0F5300DBB894 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F923BB162C2C0F5300DBB894 /* SceneDelegate.swift */; };
 		F923BB192C2C0F5300DBB894 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F923BB182C2C0F5300DBB894 /* HomeVC.swift */; };
@@ -59,6 +60,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F921AE412C4852B400544E0C /* AutoScrollVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoScrollVC.swift; sourceTree = "<group>"; };
 		F923BB112C2C0F5300DBB894 /* UIKitDashboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIKitDashboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F923BB142C2C0F5300DBB894 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F923BB162C2C0F5300DBB894 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -254,6 +256,7 @@
 				F923BB5B2C2D647100DBB894 /* WithCustomCellVC.swift */,
 				F923BB652C2DA9FA00DBB894 /* BasicGridVC.swift */,
 				F923BB6D2C2DD0C000DBB894 /* CaraousalVC.swift */,
+				F921AE412C4852B400544E0C /* AutoScrollVC.swift */,
 			);
 			path = CollectionViewList;
 			sourceTree = "<group>";
@@ -424,6 +427,7 @@
 				F923BB6A2C2DB42E00DBB894 /* CategoryCell.swift in Sources */,
 				F923BB4A2C2C375600DBB894 /* Post.swift in Sources */,
 				F9A5161A2C2FCF9500C8DD8A /* UIKDCardDocketView.swift in Sources */,
+				F921AE422C4852B400544E0C /* AutoScrollVC.swift in Sources */,
 				F9A516252C30340F00C8DD8A /* Genre.swift in Sources */,
 				F923BB5C2C2D647100DBB894 /* WithCustomCellVC.swift in Sources */,
 				F9A516272C3034D200C8DD8A /* UIKDExpandableHeaderView.swift in Sources */,

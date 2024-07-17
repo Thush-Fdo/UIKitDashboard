@@ -47,7 +47,8 @@ extension CollectionHomeVC {
         collectionViewList = [
             CollectionViewList(name: "Basic Two Column Grid View", viewController: BasicGridVC()),
             CollectionViewList(name: "Grid for Two and Three Columns", viewController: WithCustomCellVC()),
-            CollectionViewList(name: "Caraousal View", viewController: CaraousalVC())
+            CollectionViewList(name: "Caraousal View", viewController: CaraousalVC()),
+            CollectionViewList(name: "Auto Scroll Images", viewController: AutoScrollVC())
         ]
     }
 }
