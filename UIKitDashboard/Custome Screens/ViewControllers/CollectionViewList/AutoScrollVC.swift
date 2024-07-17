@@ -2,7 +2,7 @@
 //  AutoScrollVC.swift
 //  UIKitDashboard
 //
-//  Created by Shermin Fernando on 18/07/2024.
+//  Created by Thush-Fdo on 18/07/2024.
 //
 
 import UIKit
