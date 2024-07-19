@@ -66,4 +66,10 @@ class WonderCell: UITableViewCell {
             wonderImageVIew.bottomAnchor.constraint(equalTo: bottomAnchor, constant: -10)
         ])
     }
+    
+    func animate() {
+        UIView.animate(withDuration: 0.5, delay: 0.3, usingSpringWithDamping: 0.8, initialSpringVelocity: 1, options: .curveEaseIn) {
+            self.contentView.layoutIfNeeded()
+        }
+    }
 }

@@ -9,7 +9,7 @@ import UIKit
 
 class CollapsibleTableHeaderVC: UIViewController{
     
-    private var tableView = UITableView(frame: .zero, style: .plain)
+    private var tableView = UITableView(frame: .zero, style: .insetGrouped)
     private let cellID = "CellID"
     private var genres: [Genre] = []
     
@@ -106,7 +106,7 @@ extension CollapsibleTableHeaderVC: UITableViewDataSource {
         self.genres[indexPath.section].subtitle = tableView.cellForRow(at: indexPath)?.textLabel?.text ?? "N/A"
         genres[indexPath.section].expanded = !genres[indexPath.section].expanded
         tableView.beginUpdates()
-        tableView.reloadSections([indexPath.section], with: .automatic)
+        tableView.reloadSections([indexPath.section], with: .none)
         tableView.endUpdates()
     }
 }

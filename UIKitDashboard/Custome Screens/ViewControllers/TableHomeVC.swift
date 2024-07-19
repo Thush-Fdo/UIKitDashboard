@@ -51,7 +51,8 @@ extension TableHomeVC {
             TableViewList(name: "Collapsible TableView with Custom HeaderView", viewController: CollapsibleTableHeaderVC()),
             TableViewList(name: "Insta Feed Replica", viewController: InstaFeedRepVC()),
             TableViewList(name: "With Custom Cells", viewController: WithCustomViewVC()),
-            TableViewList(name: "Card View in Table", viewController: CardViewVC())
+            TableViewList(name: "Card View in Table", viewController: CardViewVC()),
+            TableViewList(name: "Segmented TableView", viewController: SegmentedTableViewVC())
         ]
     }
 }

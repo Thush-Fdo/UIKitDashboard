@@ -12,8 +12,7 @@ class CollapsibleCellTableVC: UIViewController {
     private var tableView = UITableView(frame: .zero, style: .plain)
     private var wonders: [Wonder] = []
     
-    var selectedIndex = -1
-    var isCollapsed = false
+    var selectedIndex: IndexPath = IndexPath(row: 0, section: 0)
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -81,27 +80,23 @@ extension CollapsibleCellTableVC: UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: WonderCell.WonderCellID)  as! WonderCell
         cell.set(wonder: wonders[indexPath.row])
+        cell.selectionStyle = .none
+        cell.animate()
         return cell
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        if selectedIndex == indexPath.row {
-            if isCollapsed == true {
-                isCollapsed = false
-            } else {
-                isCollapsed = true
-            }
-        }
-        
-        selectedIndex = indexPath.row
-        tableView.reloadRows(at: [indexPath], with: .automatic)
+        selectedIndex = indexPath
+        tableView.beginUpdates()
+        tableView.reloadRows(at: [selectedIndex], with: .none)
+        tableView.endUpdates()
     }
 }
 
 extension CollapsibleCellTableVC: UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        if selectedIndex == indexPath.row && isCollapsed == true {
+        if selectedIndex == indexPath {
             return 300
         } else {
             return 45
