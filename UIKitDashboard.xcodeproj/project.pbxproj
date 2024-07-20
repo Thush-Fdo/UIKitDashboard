@@ -41,6 +41,9 @@
 		F923BB6A2C2DB42E00DBB894 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F923BB692C2DB42E00DBB894 /* CategoryCell.swift */; };
 		F923BB6C2C2DCEEF00DBB894 /* DogCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F923BB6B2C2DCEEF00DBB894 /* DogCell.swift */; };
 		F923BB6E2C2DD0C000DBB894 /* CaraousalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F923BB6D2C2DD0C000DBB894 /* CaraousalVC.swift */; };
+		F952EC942C4B82B0006C4F10 /* StickyHeaderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F952EC932C4B82B0006C4F10 /* StickyHeaderVC.swift */; };
+		F952EC982C4BC0AB006C4F10 /* UIKDStickyHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F952EC972C4BC0AB006C4F10 /* UIKDStickyHeader.swift */; };
+		F952EC9A2C4BDF7E006C4F10 /* UIKDStretchyHeaderFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F952EC992C4BDF7E006C4F10 /* UIKDStretchyHeaderFlowLayout.swift */; };
 		F9A516182C2FCF2100C8DD8A /* UIKDShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A516172C2FCF2100C8DD8A /* UIKDShadowView.swift */; };
 		F9A5161A2C2FCF9500C8DD8A /* UIKDCardDocketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A516192C2FCF9500C8DD8A /* UIKDCardDocketView.swift */; };
 		F9A5161C2C2FE41900C8DD8A /* CreditCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A5161B2C2FE41900C8DD8A /* CreditCard.swift */; };
@@ -97,6 +100,9 @@
 		F923BB692C2DB42E00DBB894 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
 		F923BB6B2C2DCEEF00DBB894 /* DogCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogCell.swift; sourceTree = "<group>"; };
 		F923BB6D2C2DD0C000DBB894 /* CaraousalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaraousalVC.swift; sourceTree = "<group>"; };
+		F952EC932C4B82B0006C4F10 /* StickyHeaderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickyHeaderVC.swift; sourceTree = "<group>"; };
+		F952EC972C4BC0AB006C4F10 /* UIKDStickyHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKDStickyHeader.swift; sourceTree = "<group>"; };
+		F952EC992C4BDF7E006C4F10 /* UIKDStretchyHeaderFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKDStretchyHeaderFlowLayout.swift; sourceTree = "<group>"; };
 		F9A516172C2FCF2100C8DD8A /* UIKDShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKDShadowView.swift; sourceTree = "<group>"; };
 		F9A516192C2FCF9500C8DD8A /* UIKDCardDocketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKDCardDocketView.swift; sourceTree = "<group>"; };
 		F9A5161B2C2FE41900C8DD8A /* CreditCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCard.swift; sourceTree = "<group>"; };
@@ -260,6 +266,7 @@
 				F923BB652C2DA9FA00DBB894 /* BasicGridVC.swift */,
 				F923BB6D2C2DD0C000DBB894 /* CaraousalVC.swift */,
 				F921AE412C4852B400544E0C /* AutoScrollVC.swift */,
+				F952EC932C4B82B0006C4F10 /* StickyHeaderVC.swift */,
 			);
 			path = CollectionViewList;
 			sourceTree = "<group>";
@@ -309,6 +316,7 @@
 			children = (
 				F9A516172C2FCF2100C8DD8A /* UIKDShadowView.swift */,
 				F9A516192C2FCF9500C8DD8A /* UIKDCardDocketView.swift */,
+				F952EC972C4BC0AB006C4F10 /* UIKDStickyHeader.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -326,6 +334,7 @@
 			children = (
 				F9AD75BA2C2E6F4C00B16BDF /* UIKDCustomFlowLayout.swift */,
 				F9A516262C3034D200C8DD8A /* UIKDExpandableHeaderView.swift */,
+				F952EC992C4BDF7E006C4F10 /* UIKDStretchyHeaderFlowLayout.swift */,
 			);
 			path = Layouts;
 			sourceTree = "<group>";
@@ -411,6 +420,7 @@
 				F9A5161E2C2FE91400C8DD8A /* UIColor+Ext.swift in Sources */,
 				F9A5162F2C306EB100C8DD8A /* WonderCell.swift in Sources */,
 				F923BB302C2C1B8100DBB894 /* VideoCell.swift in Sources */,
+				F952EC9A2C4BDF7E006C4F10 /* UIKDStretchyHeaderFlowLayout.swift in Sources */,
 				F9AD75BB2C2E6F4C00B16BDF /* UIKDCustomFlowLayout.swift in Sources */,
 				F9AD131A2C4A56C9006E7C05 /* SegmentedTableViewVC.swift in Sources */,
 				F923BB562C2C499D00DBB894 /* UIKDSecondaryTitleLabel.swift in Sources */,
@@ -428,6 +438,7 @@
 				F923BB362C2C1BFA00DBB894 /* NavList.swift in Sources */,
 				F923BB642C2D971800DBB894 /* UIHelper.swift in Sources */,
 				F923BB602C2D737800DBB894 /* Photos.swift in Sources */,
+				F952EC942C4B82B0006C4F10 /* StickyHeaderVC.swift in Sources */,
 				F923BB6A2C2DB42E00DBB894 /* CategoryCell.swift in Sources */,
 				F923BB4A2C2C375600DBB894 /* Post.swift in Sources */,
 				F9A5161A2C2FCF9500C8DD8A /* UIKDCardDocketView.swift in Sources */,
@@ -435,6 +446,7 @@
 				F9A516252C30340F00C8DD8A /* Genre.swift in Sources */,
 				F923BB5C2C2D647100DBB894 /* WithCustomCellVC.swift in Sources */,
 				F9A516272C3034D200C8DD8A /* UIKDExpandableHeaderView.swift in Sources */,
+				F952EC982C4BC0AB006C4F10 /* UIKDStickyHeader.swift in Sources */,
 				F9A516232C3032E000C8DD8A /* CollapsibleTableHeaderVC.swift in Sources */,
 				F923BB462C2C341D00DBB894 /* WithCustomViewVC.swift in Sources */,
 				F923BB152C2C0F5300DBB894 /* AppDelegate.swift in Sources */,

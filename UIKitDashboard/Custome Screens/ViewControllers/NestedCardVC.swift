@@ -84,7 +84,7 @@ class NestedCardVC: UIViewController {
     }
     
     func createCardViews() {
-        for card in getCradData() {
+        for card in getCardData() {
             let cardbg = UIView(frame: .zero)
             configureUIelements(with: card, and: cardbg)
             
@@ -97,7 +97,7 @@ class NestedCardVC: UIViewController {
             contentView.addSubview(cardbg)
         }
         
-        contentViewHeightRequest = (requiredCardHeight + CGFloat(20)) * CGFloat(getCradData().count)
+        contentViewHeightRequest = (requiredCardHeight + CGFloat(20)) * CGFloat(getCardData().count)
     }
     
     func setContentViewScrolRequestHeight() {
@@ -135,7 +135,7 @@ class NestedCardVC: UIViewController {
 }
 
 extension NestedCardVC {
-    func getCradData() -> [CreditCard] {
+    func getCardData() -> [CreditCard] {
         return [
             CreditCard(cardNickNname: "jdvisaone",
                        name: "Justin Victor Graham",

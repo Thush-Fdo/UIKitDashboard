@@ -17,7 +17,8 @@ class DogCell: UICollectionViewCell {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
-        configureGalleryImage()    }
+        configureGalleryImage()
+    }
     
     override func layoutSubviews() {
         super.layoutSubviews()

@@ -48,7 +48,8 @@ extension CollectionHomeVC {
             CollectionViewList(name: "Basic Two Column Grid View", viewController: BasicGridVC()),
             CollectionViewList(name: "Grid for Two and Three Columns", viewController: WithCustomCellVC()),
             CollectionViewList(name: "Caraousal View", viewController: CaraousalVC()),
-            CollectionViewList(name: "Auto Scroll Images", viewController: AutoScrollVC())
+            CollectionViewList(name: "Auto Scroll Images", viewController: AutoScrollVC()),
+            CollectionViewList(name: "Sticky Header", viewController: StickyHeaderVC(collectionViewLayout: UIKDStretchyHeaderFlowLayout()))
         ]
     }
 }
